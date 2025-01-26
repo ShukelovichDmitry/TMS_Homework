@@ -23,7 +23,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++){
             arr[i] = random.nextInt(1000);
         }
-        System.out.println("Результат: " + Arrays.toString(arr));
+        System.out.println("Входной массив: " + Arrays.toString(arr));
         FindMaxMin.findMaxMin(arr);
         ArrayPalindrome.isPalindrome(arr);
         OddAndEven.count(arr);

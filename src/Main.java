@@ -26,12 +26,11 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(1000);
         }*/
-        System.out.println("Входной массив: " + Arrays.toString(arr));
-        //FrequencySort.sort(arr);
-        //SortWithNegativeNumbers.sort(arrWithNegativeNumbers);
-        int count = CountReplacement.sort(arr, 0, arr.length-1);
-        System.out.println("Результат: " + count);
         System.out.println("Результат: " + Arrays.toString(arr));
+        FindMaxMin.findMaxMin(arr);
+        ArrayPalindrome.isPalindrome(arr);
+        OddAndEven.count(arr);
+        ReverseArray.reverse(arr);
 
     }
 }
